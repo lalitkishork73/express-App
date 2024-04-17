@@ -16,7 +16,6 @@ app.get('/api/data', (req, res) => {
   res.json(data);
 });
 
-console.log()
 
 // Start the server
 app.listen(PORT, () => {
