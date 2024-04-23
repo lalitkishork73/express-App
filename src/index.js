@@ -22,5 +22,5 @@ app.get('/api/data', (req, res) => {
 
 // Start the server
 app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+  console.log(`Server is running on port with version 2 ${PORT}`);
 });
