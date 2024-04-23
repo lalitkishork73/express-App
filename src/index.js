@@ -6,6 +6,9 @@ const PORT = process.env.PORT || 3000;
 app.get('/', (req, res) => {
   res.send('Welcome to my Express API!');
 });
+app.get('/lalit', (req, res) => {
+  res.send({ message: "Welcome to my Express API Jungle you jungly insaan." });
+});
 
 // Define another route
 app.get('/api/data', (req, res) => {
